@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".order">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textgift"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Order"
+                android:textColor="@color/black"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/allmenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="전체 메뉴"
+                    android:background="@android:color/transparent"
+                    android:textColor="@android:color/background_dark"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textSize="16sp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="나만의 메뉴"
+                    android:background="@android:color/transparent"
+                    android:textColor="@android:color/background_dark"
+                    android:layout_weight="1"
+                    android:textSize="16sp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="홀케이크 예약"
+                    android:background="@android:color/transparent"
+                    android:textColor="#03a663"
+                    android:layout_weight="1"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:background="#e0dede"
+                    android:layout_weight="1"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="음료"
+                    android:background="@android:color/transparent"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold"
+                    android:lineSpacingExtra="-5sp"
+                    android:layout_marginRight="-20dp"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="푸드"
+                    android:background="@android:color/transparent"
+                    android:textColor="@android:color/background_dark"
+                    android:lineSpacingExtra="-5sp"
+                    android:layout_marginRight="-20dp"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="상품"
+                    android:background="@android:color/transparent"
+                    android:textColor="@android:color/background_dark"
+                    android:lineSpacingExtra="-5sp"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="#e0dede" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/transparentborderline"
+                    android:drawableLeft="@drawable/roundnew"
+                    android:gravity="left|center_vertical"
+                    android:text="New"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:textSize="20sp"
+                    android:drawablePadding="20dp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/transparentborderline"
+                    android:drawableLeft="@drawable/roundrecommend"
+                    android:gravity="left|center_vertical"
+                    android:text="추천"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:textSize="20sp"
+                    android:drawablePadding="20dp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/transparentborderline"
+                    android:drawableLeft="@drawable/roundcoldbrew"
+                    android:gravity="left|center_vertical"
+                    android:text="콜드 브루"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:textSize="20sp"
+                    android:drawablePadding="20dp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/transparentborderline"
+                    android:drawableLeft="@drawable/roundespresso"
+                    android:gravity="left|center_vertical"
+                    android:text="에스프레소"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:textSize="20sp"
+                    android:drawablePadding="20dp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/transparentborderline"
+                    android:drawableLeft="@drawable/roundblonde"
+                    android:gravity="left|center_vertical"
+                    android:text="블론드"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:textSize="20sp"
+                    android:drawablePadding="20dp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/transparentborderline"
+                    android:drawableLeft="@drawable/roundpigio"
+                    android:gravity="left|center_vertical"
+                    android:text="피지오"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="15dp"
+                    android:textSize="20sp"
+                    android:drawablePadding="20dp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/transparentborderline"
+                    android:drawableLeft="@drawable/roundfrapu"
+                    android:gravity="left|center_vertical"
+                    android:text="프라푸치노"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="15dp"
+                    android:textSize="20sp"
+                    android:drawablePadding="20dp"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2d2926"
+                android:text="주문할 매장을 선택해 주세요"
+                android:textColor="@android:color/white"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="#f6f6f6"
+                android:gravity="bottom">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/home" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/pay" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/order" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/gift" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/other" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+
