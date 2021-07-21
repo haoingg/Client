@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gift">
+
+    <TextView
+        android:id="@+id/textgift"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Gift"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/egiftitem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/shadowbutton"
+        android:drawableRight="@drawable/egiftitem"
+        android:drawablePadding="20dp"
+        android:padding="40dp"
+        android:text="e-Gift Item >"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/egiftcard"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread" />
+
+    <!--    <TextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="고마운 마음, \n 모바일상품권으로 선물하세요" />-->
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/egiftcard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shadowbutton"
+        android:drawableRight="@drawable/egiftcard"
+        android:drawablePadding="2dp"
+        android:elevation="20dp"
+        android:padding="40dp"
+        android:text="e-Gift Card >"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/egiftitem" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
