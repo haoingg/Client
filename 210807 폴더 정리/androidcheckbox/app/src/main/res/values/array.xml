@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="resicon">
+        <item>@drawable/roundnew</item>
+        <item>@drawable/roundrecommend</item>
+        <item>@drawable/roundcoldbrew</item>
+        <item>@drawable/roundespresso</item>
+        <item>@drawable/roundblonde</item>
+        <item>@drawable/roundpigio</item>
+        <item>@drawable/roundfrapu</item>
+        <item>@drawable/roundnew</item>
+        <item>@drawable/roundrecommend</item>
+        <item>@drawable/roundcoldbrew</item>
+        <item>@drawable/roundespresso</item>
+        <item>@drawable/roundblonde</item>
+        <item>@drawable/roundpigio</item>
+        <item>@drawable/roundfrapu</item>
+        <item>@drawable/roundnew</item>
+        <item>@drawable/roundrecommend</item>
+        <item>@drawable/roundcoldbrew</item>
+        <item>@drawable/roundespresso</item>
+        <item>@drawable/roundblonde</item>
+        <item>@drawable/roundpigio</item>
+        <item>@drawable/roundfrapu</item>
+    </array>
+
+    <array name="restext">
+        <item>"New"</item>
+        <item>"추천"</item>
+        <item>"콜드브루"</item>
+        <item>"에스프레소"</item>
+        <item>"블론드"</item>
+        <item>"피지오"</item>
+        <item>"프라푸치노"</item>
+        <item>"New"</item>
+        <item>"추천"</item>
+        <item>"콜드브루"</item>
+        <item>"에스프레소"</item>
+        <item>"블론드"</item>
+        <item>"피지오"</item>
+        <item>"프라푸치노"</item>
+        <item>"New"</item>
+        <item>"추천"</item>
+        <item>"콜드브루"</item>
+        <item>"에스프레소"</item>
+        <item>"블론드"</item>
+        <item>"피지오"</item>
+        <item>"프라푸치노"</item>
+    </array>
+
+</resources>

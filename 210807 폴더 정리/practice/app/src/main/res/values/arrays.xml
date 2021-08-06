@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <arrray name = "restext">
+        <item>"asdf"</item>
+        <item>"책책책책책"</item>
+        <item>"여권"</item>
+        <item>"책책책책책"</item>
+        <item>"여권"</item>
+        <item>"책책책책책"</item>
+        <item>"여권"</item>
+        <item>"책책책책책"</item>
+        <item>"여권"</item>
+        <item>"책책책책책"</item>
+        <item>"여권"</item>
+        <item>"여권"</item>
+        <item>"책책책책책"</item>
+        <item>"여권"</item>
+        <item>"책책책책책"</item>
+        <item>"여권"</item>
+        <item>"책책책책책"</item>
+        <item>"여권"</item>
+        <item>"책책책책책"</item>
+        <item>"여권"</item>
+        <item>"책책책책책"</item>
+
+    </arrray>
+
+    <string-array name="restext" />
+</resources>
